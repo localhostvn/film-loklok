@@ -61,7 +61,7 @@ const Sidebar: FC<SidebarProps> = ({ sidebarActive, setSidebarActive }) => {
                 })}
               >
                 <FaHome className="w-6 h-6 fill-current" />
-                <p className="block sm:hidden xl:block">Home</p>
+                <p className="block sm:hidden xl:block">Trang chủ</p>
               </a>
             </Link>
 
@@ -75,7 +75,7 @@ const Sidebar: FC<SidebarProps> = ({ sidebarActive, setSidebarActive }) => {
                 })}
               >
                 <FaHistory className="w-6 h-6 fill-current" />
-                <p className="block sm:hidden xl:block">History</p>
+                <p className="block sm:hidden xl:block">Lịch sử</p>
               </a>
             </Link>
 
@@ -92,7 +92,7 @@ const Sidebar: FC<SidebarProps> = ({ sidebarActive, setSidebarActive }) => {
                 )}
               >
                 <FaSearch className="w-6 h-6 fill-current" />
-                <p className="block sm:hidden xl:block">Search</p>
+                <p className="block sm:hidden xl:block">Tìm kiếm</p>
               </a>
             </Link>
           </div>
@@ -105,7 +105,7 @@ const Sidebar: FC<SidebarProps> = ({ sidebarActive, setSidebarActive }) => {
             <Link href="/sign-in">
               <a className="flex items-center gap-2 transition text-gray-400 hover:text-gray-300">
                 <FaSignInAlt className="w-6 h-6 fill-current" />
-                <p className="block sm:hidden xl:block">Sign In</p>
+                <p className="block sm:hidden xl:block">Đăng nhập</p>
               </a>
             </Link>
           ) : (
@@ -130,7 +130,7 @@ const Sidebar: FC<SidebarProps> = ({ sidebarActive, setSidebarActive }) => {
                 className="flex items-center cursor-pointer gap-2 transition text-gray-400 hover:text-gray-300"
               >
                 <FaSignOutAlt className="w-6 h-6 fill-current" />
-                <p className="block sm:hidden xl:block">Sign Out</p>
+                <p className="block sm:hidden xl:block">Đăng xuất</p>
               </button>
             </div>
           )}
