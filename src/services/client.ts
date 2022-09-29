@@ -6,7 +6,7 @@ const client = axios.create({
     lang: "vi",
     versioncode: "11",
     clienttype: "ios_jike_default",
-    deviceid : "",
+   
   },
 });
 export default client;
