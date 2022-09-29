@@ -39,9 +39,9 @@ const Sidebar: FC<SidebarProps> = ({ sidebarActive, setSidebarActive }) => {
       >
         <Link href="/">
           <a className="flex gap-2 items-center">
-            <img className="w-6 h-6" src="/icon.png" alt="" />
+            <img className="w-6 h-6" src="https://img.freepik.com/premium-vector/cute-shiba-inu-cartoon-vector-icon-illustration-animal-nature-icon-concept_636967-131.jpg" alt="" />
             <p className="font-semibold text-xl block sm:hidden xl:block">
-              FilmHot
+              Phim Dở Lên Ngôi
             </p>
           </a>
         </Link>
