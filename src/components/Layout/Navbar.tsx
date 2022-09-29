@@ -10,7 +10,7 @@ const NavBar: FC = () => {
       <Link href="/">
         <a className="flex items-center gap-2">
           <img className="w-8 h-8" src="/icon.png" alt="" />
-          <span className="text-xl font-medium">FilmHot</span>
+          <span className="text-xl font-medium">Phim Dở</span>
         </a>
       </Link>
 
