@@ -138,7 +138,7 @@ const Home: NextPage<HomeProps> = ({ topSearches }) => {
 
         <div className="flex-shrink-0 w-[350px] p-8 sticky top-0 h-screen scrollbar overflow-hidden overflow-y-auto hidden md:block">
           <SearchBox />
-          <h1 className="text-xl my-6">Top Searches</h1>
+          <h1 className="text-xl my-6">Tìm kiếm</h1>
           <TopSearches topSearches={topSearches!} />
         </div>
       </div>
