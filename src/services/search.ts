@@ -14,7 +14,7 @@ export const searchWithKeyword = async (
   keyword: string
 ): Promise<SearchResultItem[]> =>
   (
-    await axios.post("search/v1/searchWithKeyWord", {
+    await axios.post("search/searchWithKeyWord", {
       searchKeyWord: keyword,
       size: 50,
       sort: "",
